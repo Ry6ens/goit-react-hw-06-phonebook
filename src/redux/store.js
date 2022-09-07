@@ -31,7 +31,3 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
-
-const arr = [1, 2, 3, 4][Symbol.iterator];
-
-arr.forEach();
